@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "tools.ip",
+      "type": "cn.codejuzi.properties.IpCountProperties",
+      "sourceType": "cn.codejuzi.properties.IpCountProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tools.ip.cycle",
+      "type": "java.lang.Long",
+      "description": "日志显示周期",
+      "sourceType": "cn.codejuzi.properties.IpCountProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "tools.ip.cycle-reset",
+      "type": "java.lang.Boolean",
+      "description": "是否周期内清空数据",
+      "sourceType": "cn.codejuzi.properties.IpCountProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "tools.ip.model",
+      "type": "java.lang.String",
+      "description": "日志输出格式 detail：详细模式，simple：极简模式",
+      "sourceType": "cn.codejuzi.properties.IpCountProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "tools.ip.model",
+      "values": [
+        {
+          "value": "detail",
+          "description": "详细模式."
+        },
+        {
+          "value": "simple",
+          "description": "极简模式."
+        }
+      ]
+    }
+  ]
+}
